@@ -132,8 +132,8 @@ Write a function that creates an object with name, rating, feedback, add the new
 */
 
 function addReview(array, name, rating, feedback){
-  array.push(array.name, array.rating, array.feedback)
-  return addReview(reviews)
+  array.push({name, rating, feedback})
+  return array
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
